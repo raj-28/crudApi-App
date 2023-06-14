@@ -15,5 +15,4 @@ app.get('/',(req,res)=>{
     res.send('Hello from Home Page. ')
 })
 
-app.listen(PORT,()=>console.log(`Server Running on port : http://loclahost:${PORT
-}`))
+app.listen(PORT,()=>console.log(`Server Running on port : http://loclahost:${PORT}`))
